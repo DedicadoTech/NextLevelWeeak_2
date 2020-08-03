@@ -24,6 +24,18 @@
     font-size: 80%; /*Controle das medidas rem*/
     
 }
-*{
-    
-}
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ html body{
+    height: 100vh;
+ }
+ body{
+     
+     background: var(--color-backgrounds);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
