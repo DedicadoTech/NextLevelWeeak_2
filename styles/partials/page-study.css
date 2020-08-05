@@ -204,6 +204,11 @@
     }
     .page-header .header-content{
         max-width: 740px;
+
+        flex: 1 1;
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
     }
     .teacher-item header
     .teacher-item footer {
